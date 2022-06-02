@@ -2,10 +2,10 @@
 
 function fibonacci(current_number, second_number){
 
-    document.write('First 10 Fibonacci Numbers: ')
+    document.write('First 10 Fibonacci Numbers: ');
 
     for (let i = 1; i <= 10; i++){
-        return document.write(current_number + ", ");
+        document.write(current_number + " ");
         new_number = current_number + second_number;
         current_number = second_number;
         second_number = new_number;
